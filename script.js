@@ -23,7 +23,8 @@ async function foo(value){
                     <img src="${value[i].flag}" alt="flags" width=200px>
                     <p class="card-text"><b>Capital:</b> ${value[i].capital}</p>
                     <p class="card-text"><b>Region: </b>${value[i].region}</p>
-                     <p class="card-text"><b>Country code:</b> ${value[i].alpha3Code}</p>
+                    <p class="card-text"><b>LatIng: </b>${value[i].latlng}</p>
+                    <p class="card-text"><b>Country code:</b> ${value[i].alpha3Code}</p>
                      <p id="wet"></p>                                 
                      
                      <button class="btn btn-primary ">Click for Weather</button>
