@@ -1,0 +1,6 @@
+body{
+    background-color:#34568B;
+}
+.card-body {
+    background:linear-gradient(to bottom , Hex #F7CAC9 , Hex #92A8D1);
+}
